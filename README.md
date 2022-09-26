@@ -5,24 +5,13 @@ To write a python program for copying the contents from one file to another file
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
-Step 1:
-
-Create a file and add some content into it.
-Step 2:
-
-Open file using with keyword/built-in function in read mode.
-Step 3:
-
-Use read() to read the contents of the file.
-Step 4:
-
-Split the lines using split().
-Step 5:
-
-Iterate the list and increment the count
-Step 6:
-
-Print the output.
+Step 1:First we need to open the required file form which we need to copy the text.Again using the with keyword to open the empty file.
+Step 2:Using keyword "with" to open the requied file.
+Step 3:Again using the with keyword to open the empty file.
+Step 4:The empty file is open by using 'W' which is used to write only.
+Step 5:The four function is used to take each line from the main file.
+Step 6:The four function is used to take each line from the main file.
+step 7:Print the output.
 ## PROGRAM:
 ``` python
 with open("git.txt","r") as f1:
