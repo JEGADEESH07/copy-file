@@ -22,6 +22,8 @@ step 7:Print the output.
 
 ## PROGRAM:
 ``` python
+developde by: jegadeesh s
+registered number: 22004355
 with open("git.txt","r") as f1:
     with open("MyFile.txt","a") as f2:
         for line in f1:
